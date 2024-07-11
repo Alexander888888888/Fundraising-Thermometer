@@ -1,0 +1,198 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-left: 388px;
+    text-decoration: underline;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    border-collapse: collapse;
+
+}
+
+#thermometer {
+    display: flex;
+    height: 450px;
+    overflow: hidden;
+    width: 75px;
+    border: 2px solid black;
+    border-radius: 50px 50px 0 0;
+    border-bottom: none;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+
+#thermometerBall {
+    height: 125px;
+    width: 125px;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: 47px;
+    left: 418px;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+
+#mercury {
+    height: 0%;
+    width: 75px;
+    border: none;
+    background-color: red;
+    transition: height 2s;
+    align-self: flex-end;
+}
+
+.dividers {
+    flex-direction: row;
+    height: 2px;
+    width: 20px;
+    align-self: end;
+    justify-self: flex-end;
+    background-color: black;
+    position: absolute;
+}
+
+#ten {
+    bottom: 10%;
+    width: 40px;
+}
+
+#twenty {
+    bottom: 20%;
+}
+
+#thirty {
+    bottom: 30%;
+    width: 40px;
+}
+
+#fourty {
+    bottom: 40%;
+}
+
+#fifty {
+    bottom: 50%;
+    width: 40px;
+}
+
+#sixty {
+    bottom: 60%;
+}
+
+#seventy {
+    bottom: 70%;
+    width: 40px;
+}
+
+#eighty {
+    bottom: 80%;
+}
+
+#ninty {
+    bottom: 90%;
+    width: 40px;
+}
+
+
+#invisibleThermometer {
+    position: absolute;
+    left: 465px;
+    bottom: 145px;
+    height: 450px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+}
+
+#donationLabel {
+    position: absolute;
+    font-size: 1.5rem;
+    color: #000;
+    text-align: right;
+    transition: bottom 2s;
+    bottom: 0;
+}
+
+#invisibleDividerThermometer {
+    display: flex;
+    position: absolute;
+    bottom: 150px;
+    left: 300px;
+    height: 450px;
+    width: 75px;
+    background-color: transparent;
+}
+
+.percentages {
+    align-self: flex-end;
+    position: absolute;
+    left: 50%;
+    font-size: 1.2rem;
+}
+
+#tenPercent {
+    bottom: 10%;
+}
+
+#twentyPercent {
+    bottom: 20%;
+    left: 20%;
+}
+
+#thirtyPercent {
+    bottom: 30%;
+}
+
+#fourtyPercent {
+    bottom: 40%;
+    left: 20%;
+}
+
+#fiftyPercent {
+    bottom: 50%;
+}
+
+#sixtyPercent {
+    bottom: 60%;
+    left: 20%;
+}
+
+#seventyPercent {
+    bottom: 70%;
+}
+
+#eightyPercent {
+    bottom: 80%;
+    left: 20%;
+}
+
+#nintyPercent {
+    bottom: 90%;
+}
+
+fieldset {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 200px;
+}
+
+#centreDonation {
+    display: flex;
+    align-items: baseline;
+}
+
+input {
+    font-size: 15px;
+}
+
+button {
+    cursor: pointer;
+}

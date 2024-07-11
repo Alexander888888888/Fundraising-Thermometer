@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Fundraising Thermometer</title>
+</head>
+
+<body>
+
+    <h1>Fundraising Thermometer</h1>
+
+    <h2>£100</h2>
+    <div id="container">
+        <div id="thermometer">
+
+            <div id="mercury"></div>
+
+            <div class="dividers" id="ten"></div>
+            <div class="dividers" id="twenty"></div>
+            <div class="dividers" id="thirty"></div>
+            <div class="dividers" id="fourty"></div>
+            <div class="dividers" id="fifty"></div>
+            <div class="dividers" id="sixty"></div>
+            <div class="dividers" id="seventy"></div>
+            <div class="dividers" id="eighty"></div>
+            <div class="dividers" id="ninty"></div>
+
+        </div>
+
+        <div id="invisibleThermometer">
+            <div id="donationLabel">← £0</div>
+        </div>
+
+        <div id="invisibleDividerThermometer">
+            <div class="percentages" id="tenPercent">10%</div>
+            <div class="percentages" id="twentyPercent">20%</div>
+            <div class="percentages" id="thirtyPercent">30%</div>
+            <div class="percentages" id="fourtyPercent">40%</div>
+            <div class="percentages" id="fiftyPercent">50%</div>
+            <div class="percentages" id="sixtyPercent">60%</div>
+            <div class="percentages" id="seventyPercent">70%</div>
+            <div class="percentages" id="eightyPercent">80%</div>
+            <div class="percentages" id="nintyPercent">90%</div>
+        </div>
+
+
+        <div id="thermometerBall"></div>
+
+
+        <fieldset>
+            <legend>Enter your donations here:</legend>
+            <div id="centreDonation">
+                <p>£<input type="number" id="donationAmount" placeholder="Donation Amount"></p>
+            </div>
+            <button type="button">Donate</button>
+        </fieldset>
+    </div>
+
+
+
+
+</body>
+
+</html>
