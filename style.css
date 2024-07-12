@@ -34,8 +34,8 @@ h2 {
     border-radius: 100px;
     background-color: red;
     position: absolute;
-    bottom: 47px;
-    left: 418px;
+    bottom: 43px;
+    left: 427px;
     transform: translateX(-50%);
     z-index: -1;
 }
